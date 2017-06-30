@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <TextView
+         android:id="@+id/tv_get_code"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="#b5b5b6"
+         android:clickable="true"
+         android:gravity="center"
+         android:text="获取验证码"
+         android:textColor="@color/white"
+         android:textSize="14sp" />
+
+</RelativeLayout>
